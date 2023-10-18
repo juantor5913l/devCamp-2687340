@@ -1,0 +1,79 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "devCamp-2687340",
+    "dateExported": "2023-10-18T22:31:00.336Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a71c12aa-4441-4dbb-9028-babfb2ca3273",
+            "colId": "479d2f78-d7cd-4da8-aafa-1723f26d7692",
+            "containerId": "",
+            "name": "todos los bootcamps",
+            "url": "http://127.0.0.1:5000/api/v1/devcamp/bootcamps",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-10-18T21:28:07.589Z",
+            "modified": "2023-10-18T21:49:47.913Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9bae2235-705b-41c6-aa97-e8d7ab93c6a9",
+            "colId": "479d2f78-d7cd-4da8-aafa-1723f26d7692",
+            "containerId": "",
+            "name": "traer bootcamp por id ",
+            "url": "http://127.0.0.1:5000/api/v1/devcamp/bootcamps/4",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-10-18T21:39:55.012Z",
+            "modified": "2023-10-18T21:50:32.835Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0a044057-1007-48b1-88e8-0e26216de4f2",
+            "colId": "479d2f78-d7cd-4da8-aafa-1723f26d7692",
+            "containerId": "",
+            "name": "crear bootcamp",
+            "url": "http://127.0.0.1:5000/api/v1/devcamp/bootcamps/",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-10-18T22:06:28.398Z",
+            "modified": "2023-10-18T22:06:56.483Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "67d2eb46-e352-48b6-8586-24319d567715",
+            "colId": "479d2f78-d7cd-4da8-aafa-1723f26d7692",
+            "containerId": "",
+            "name": "actualizar bootcamp",
+            "url": "http://127.0.0.1:5000/api/v1/devcamp/bootcamps/4",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2023-10-18T22:11:17.965Z",
+            "modified": "2023-10-18T22:14:18.753Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a1735307-0826-42dc-91c7-497bb1e4424b",
+            "colId": "479d2f78-d7cd-4da8-aafa-1723f26d7692",
+            "containerId": "",
+            "name": "eliminar bootcamp",
+            "url": "http://127.0.0.1:5000/api/v1/devcamp/bootcamps/4/eliminar",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2023-10-18T22:16:27.922Z",
+            "modified": "2023-10-18T22:16:40.550Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
